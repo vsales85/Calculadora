@@ -6,7 +6,7 @@ function Enableddl(chkddl) {
     if (!ddl.disabled) {
     if (!ddl2.disabled) {    
         ddl.focus();
-        ddl2.focus();
+        
     }
     }
 }
