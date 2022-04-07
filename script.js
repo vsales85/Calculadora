@@ -9,7 +9,7 @@ function calcular() {
 
    
     
-    var result_extra = document.querySelector('#extra')
+    var result_extra =  document.querySelector('#extra')
     var result_dsr = document.querySelector('#dsr')
     
     
@@ -20,7 +20,8 @@ function calcular() {
   
 
 
-    result_extra.innerHTML=hora_extra
-    result_dsr.innerHTML = dsr_extra
-
+    result_extra.innerHTML= Math.trunc  (hora_extra);
+    result_dsr.innerHTML = Math.trunc (dsr_extra);
+    
+    
 }
