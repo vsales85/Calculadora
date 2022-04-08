@@ -20,8 +20,8 @@ function calcular() {
   
 
 
-    result_extra.innerHTML=   (hora_extra);
-    result_dsr.innerHTML =  (dsr_extra);
+    result_extra.innerHTML= Math.trunc  (hora_extra);
+    result_dsr.innerHTML = Math.trunc (dsr_extra);
     
     
 }

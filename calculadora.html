@@ -6,19 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <script src="script.js"></script>
-    <script src="habilita.js"></script>
+    <script src="desabilita.js"></script>
+    <script src="desabilita2.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-<form action="#">
-    <div class="menu" >
+
+    <div>
 
         <h2>Calculadora Hora Extra</h2>
 
-        <input id="salario" type="nunber" placeholder="Salario" class="alerta" required><br><br>
-        <input id="horat" type="nunber" placeholder="Carga Horaria Mês"required><br><br>
+        <input id="salario" type="nunber" placeholder="Salario" required><br><br>
+        <input id="horat" type="nunber" placeholder="Carga Horaria Mês"><br><br>
         <select id=horase>
             <option value="0" id="op" selected disabled>Hora Extra</option>
             
@@ -37,8 +38,8 @@
             <option value="31" id="31d">31</option>
         </select><br> <br>
        
-        <select  id="DDL2" disabled="disabled">
-            <option ty value="0" selected Disabled>Domingos e Feriados no mês </option>
+        <select id="DDL2" disabled="disabled">
+            <option value="0" selected Disabled>Domingos e Feriados no mês </option>
             <option value="4" id="4">4</option>
             <option value="5" id="5">5</option>
             <option value="6" id="6">6</option>
@@ -53,19 +54,15 @@
         
         <br>
         <br>
-        <center>
+
         <button onclick="calcular()">Calcular</button> <br><br>
-        </center>
+
         Sua hora Extra é: <span id="extra" ></span> <br>
         Sua DSR: <span id="dsr"></span>
-       
+
     </div>
-   
-</form>
 
 
-    <img src="img/pngegg.png" alt="">
-    
 </body>
 
 </html>
