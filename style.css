@@ -57,13 +57,9 @@ span
     
 }
  
-.style  {
-    
-}
 img
 {
-    max-width:100px;
-    max-height:100px;
-   
-    transform: translate(850%, 82%);
+    
+    max-height:90px;
+   transform: translate(850%, 168%);
 }   
