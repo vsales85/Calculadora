@@ -59,7 +59,10 @@ span
  
 img
 {
-    
-    max-height:90px;
-   transform: translate(850%, 168%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(180%, -428%);
+    max-height:70px;
+  
 }   
