@@ -5,7 +5,7 @@ body {
 }
 
 .menu {
-    background-color: rgba(77, 240, 118, 0.836);
+    background-color: rgba(123, 58, 184, 0.9);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -63,7 +63,7 @@ img
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(180%, -428%);
+    transform: translate(180%, -455%);
     max-height:70px;
   
 }   
